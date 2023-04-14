@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    padding: 200px auto;
+}
+
+.shape {
+    
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 120px auto ;
+    border-radius: 100px / 50px;
+    background-color: aquamarine;
+    transition: 1s;
+    transform-origin:right;
+}
+.spin{
+    transform:scale(2) rotate(1080deg);
+    margin: 120px auto ;
+}
+/* .shape:hover { 
+  transform:translate(100%, 180px);
+} */
+.btn {
+    margin-top: 90px;
+    padding: 20px 60px;
+    background-color: blueviolet;
+    border-radius: 30px;
+    border: none;
+}
+.btn:hover {
+    
+    background-color: orange;
+}
